@@ -1,0 +1,24 @@
+.grid {
+    display: grid;
+    grid-template-columns: 100px 100px;
+
+}
+.grid2 {
+    display: grid;
+    grid-template-columns: 100px 100px 200px;
+    margin-top: 30px;
+    
+}
+.grid3 {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    margin-top: 30px;
+}
+
+.grid4 {
+    display: grid;
+    grid-template-columns: 100px 1fr 2fr;
+    margin-top: 30px;
+
+
+}

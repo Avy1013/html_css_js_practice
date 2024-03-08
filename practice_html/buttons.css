@@ -1,0 +1,29 @@
+
+    p {
+        font-family: Georgia, 'Times New Roman', Times, serif ;
+    }
+
+    .mainig {
+       
+        font-size: 20px;
+        font-weight: bold;
+        text-align: left;
+        width: 650px;
+        line-height: 30px;
+
+    }
+    .apple {
+        margin-bottom: 50px;
+        font-size: 14px;
+        color: white; 
+        background-color: rgb(227, 65, 64);;
+        text-align: center; 
+        padding-top: 18px; 
+        padding-bottom: 18px;
+
+    }
+    .inside-apple:hover {
+        text-decoration: underline;
+        cursor: pointer;
+        margin-left: 5px;
+    }
