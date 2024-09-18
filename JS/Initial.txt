@@ -1,0 +1,16 @@
+Java script is used along side html css to show content.
+The main task is to make it interactable.
+
+you can also do basic mathematics in the console
+
+alert('hello');
+can be used for popup
+
+document.body.innerHTML = 'STRING';
+
+follows operator precedence 
+    brackets
+    * /
+    + -
+
+Math.round()
