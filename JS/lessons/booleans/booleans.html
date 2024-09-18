@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booleans</title>
+</head>
+<body>
+    <p> Rock Paper Scissors </p>
+    <button onclick="
+        const randomNumber = Math.random();
+        let  computer_move = '';
+        if(randomNumber <= 0.33){
+            computer_move = 'Rock';
+        } else if (randomNumber > 0.33 && randomNumber <0.66)
+        {
+            computer_move = 'Paper';
+        } else if(randomNumber>0.66) {
+            computer_move = 'Scissor';
+        }
+
+        let result = '';
+        if (computer_move === 'Rock'){
+            result ='Tie';
+        }
+        else if (computer_move === 'Paper'){
+            result = 'You lose';
+        } 
+        else{
+            result = 'You win';
+        }
+        alert(`your move Rock,Computer move ${computer_move},Result: ${result}`);
+    ">Rock</button>
+    <button onclick="
+        const randomNumber = Math.random();
+        let  computer_move = '';
+        if(randomNumber <= 0.33){
+            computer_move = 'Rock';
+        } else if (randomNumber > 0.33 && randomNumber <0.66)
+        {
+            computer_move = 'Paper';
+        } else if(randomNumber>0.66) {
+            computer_move = 'Scissor';
+        }
+
+        let result = '';
+        if (computer_move === 'Rock'){
+            result ='You win';
+        }
+        else if (computer_move === 'Paper'){
+            result = 'Tie';
+        } 
+        else{
+            result = 'You lose';
+        }
+        alert(`your move Paper,Computer move ${computer_move},Result: ${result}`);
+    ">Paper</button>
+    <button onclick="
+    const randomNumber = Math.random();
+        let  computer_move = '';
+        if(randomNumber <= 0.33){
+            computer_move = 'Rock';
+        } else if (randomNumber > 0.33 && randomNumber <0.66)
+        {
+            computer_move = 'Paper';
+        } else if(randomNumber>0.66) {
+            computer_move = 'Scissor';
+        }
+
+        let result = '';
+        if (computer_move === 'Rock'){
+            result ='You lose';
+        }
+        else if (computer_move === 'Paper'){
+            result = 'You win';
+        } 
+        else{
+            result = 'Tie';
+        }
+        alert(`your move Scissor ,Computer move ${computer_move},Result: ${result}`);
+    ">Scissors</button>
+    <script>
+        
+        // if(true) {
+        //     console.log("if and else statement ");
+        // } else if (8>0) {
+        //     console.log("this is a if else statement");
+        // } else {
+        //     console.log("this is a else statememt");
+        // }
+
+        // falsy values---
+        // false,0 ,'', NaN , undefined, null
+
+        // ternnary operator
+        console.log(true ? 'truthy' : 'falsy');
+
+        //gaurd value
+        true && console.log('same as if statement' );
+
+        // default value
+        const currency = undefined || 'wow';
+        console.log(currency);
+    </script>
+    
+</body>
+</html>
